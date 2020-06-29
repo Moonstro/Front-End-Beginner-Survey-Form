@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey Form</title>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <h1>Formulário de Pesquisa</h1>
+      <p>Obrigado por participar da nossa pesquisa! A sua opinião é extremamente importante e nos
+        ajudará
+        a melhorar a qualidade dos nossos serviços.
+
+        O preenchimento do questionário dura cerca de 2 minutos e as informações fornecidas serão mantidas no anonimato.
+      </p>
+    </div>
+
+  </header>
+
+  <section>
+    <form>
+      <div>
+
+        <div>
+          <label> Nome </label></br>
+          <input id="name" type="text" placeholder="Escreva seu nome" required></input>
+        </div>
+
+        <div>
+          <label> Email </label> </br>
+          <input id="email" type="email" placeholder="Escreva seu email" required></input>
+        </div>
+
+        <div>
+          <label> Idade </label> </br>
+          <input id="number" type="number" placeholder="Escreva sua idade" min="18" max="65" required></input>
+        </div>
+
+        <div>
+          <label> Qual opção melhor descreve sua ocupação atual?</label></br>
+          <select id="dropdown">
+            <option value="estudante">Estudante</option>
+            <option value="empregado">Empregado</option>
+            <option value="aposentado">Aposentado</option>
+            <option value="outro">Outro</option>
+          </select> </br>
+        </div>
+
+        <div>
+          <label>Você recomendaria nossa empresa a um amigo? </label></br>
+          <div id="satisfacao-div">
+            <input type="radio" name="recomendacao" value="sim">Sim</input> </br>
+            <input type="radio" name="recomendacao" value="nao">Não</input> </br>
+            <input type="radio" name="recomendacao" value="talvez">Talvez</input> </br>
+          </div>
+        </div>
+
+        <div>
+          <label>O que você gostaria de ver melhorado? </label></br>
+          <div id="melhora-div">
+            <input type="checkbox" name="sim" value="sim">Sim</input> </br>
+            <input type="checkbox" name="não" value="nao">Não</input> </br>
+            <input type="checkbox" name="talvez" value="talvez">Talvez</input> </br>
+          </div>
+        </div>
+
+        <div>
+          <label>Algum comentário ou sugestão?</label></br>
+          <textarea id="textarea" placeholder="Escreva seu comentário aqui..."></textarea>
+        </div>
+
+        <div>
+          <input type="submit" id="submit">
+        </div>
+
+
+      </div>
+    </form>
+
+  </section>
+
+  <footer>
+  </footer>
+</body>
+
+</html>

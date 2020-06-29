@@ -1,0 +1,56 @@
+body {
+  font-family: "Poppins";
+  font-size: 1rem;  
+  background-image: url("https://st2.depositphotos.com/1308396/9608/i/950/depositphotos_96088312-stock-photo-blue-tile-background.jpg");
+  
+}
+header {
+  text-align: center;
+  color: white;
+  padding: 15px;  
+  width: 500px;
+  margin: auto;
+}
+
+section {
+  
+  background-color: rgb(0,0,0, 0.5);
+  padding: 15px;  
+  width: 500px;
+  margin: auto;
+  color: white
+}
+
+#name, #email, #number, #dropdown {
+  margin-left: 3.5em;
+  margin-top: 2em;
+  height: 30px;
+  width: 30em;
+  margin-bottom: 2em;
+ 
+}
+
+#melhora-div, #satisfacao-div {
+  margin-left: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#textarea {
+  margin-left: 3.5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  margin-bottom: 2em;  
+  height: 100px;
+  width: 30em;
+}
+
+#submit{
+  margin-left: 2.5em;
+  margin-top: 1em;
+  height: 30px;
+  width: 100px;  
+  background-color:#ffff00;
+  cursor: pointer;
+  font-weight: bold;
+}
