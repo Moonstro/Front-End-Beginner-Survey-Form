@@ -3,7 +3,7 @@
 Repositório criando durante o curso:
 
 Responsive Web Design (FreeCodeCamp).
-O primeiro projeto desse curso é a Tribute Page.
+O segundo projeto desse curso é a Survey Form.
 
 Nesse projeto foram utilizadas:
 
